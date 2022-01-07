@@ -1,0 +1,121 @@
+
+git diogram:
+
+	untracked  | unmodified   |   modified  |    steged
+		   |		  |		|
+	add the file-----> 	  |		|
+		   |		  |		|
+		   |edit the file----->  	|
+		   |		  |		|
+		   |		  |stage the file----->		
+<----remove the file	          |		|		
+		   |		  | <----commit |
+
+
+			-----------GITHUB ALL COMMAND---------
+
+***clear likhle terminal clear hoya jabe.
+
+name and email setup:
+1)git config --global user.name Jitesh
+2)git config --global user.email jitumondal@gmail.com
+
+run command:
+1)command - git config --global user.email
+result = jitumondal@gmail.com
+2)command - git config --global user.name
+result = Jitesh
+3)commad - git init
+result = file initilize hoya jabe.
+
+staging area:
+4)command - git status 
+result = on branch master
+	untract file name and file aa ki ki change hoyacha seta dakhabe.
+5)command - git add . file name korle
+result = file staged hoya jabe 
+
+messege:
+6)command - git commit -m "jeta messege korte chai seta likhbo"
+7)command - touch and file ar name dile file made korbe.
+
+file add:
+8)command - git add -A 
+result = aksathe sob file add kore debe.
+
+made file: 
+9)command - touch file name
+result = file made korbe
+
+file 1 step age niya jabe: 
+
+10)command - git checkout file name korle 
+result = file ta ager step a fire jabe.
+11)command - git checkout -f
+result = sob file ke ak sathe ager step a niya jabe.
+
+seeing messege:
+12)command - git log
+result = sob messege dakhabe
+
+13)command - git log -p -1 (joto commit dakhte chaibo seta likhbo)
+result = commit ar sathe ki ki change korechi seta dakha be.
+
+14) command - git diff
+result = ai command working dir ke staging arear sathe compare korbe
+15)command - git diff --staged
+result = staging area ke last commit ar sathe compare korbe.
+16)command - git commit -a -m "messege jeta ami messege korte chai"
+result = staging area ke skip korbe ar file add korte hobe na.
+17)command - ls
+result = ki ki file acha seta dakha be
+
+18)command - git rm and file name 
+result = file ta remove hoya jabe.
+
+19)command - git rm --cached file name
+result = sudhu staging area theke delete hobe.
+
+20).gitingnore file
+result = gitignore file a ja ja thakbe sob delete hoya jabe.
+
+21).gitignore giya - je file ar namm likhbo setai git theke untrack hoya jabe.
+22 .gitignore - dir and / dile dir git theke untracked hobe.
+23) .gitignore - * file name korle joto oi namar file acha seta untrack hoya jabe.
+
+made branch:
+1)command - git branch -b then feature1(branch name)
+result = create a new branch it,s name feature1
+
+2)command - git branch
+result= ki ki branch name acha seta dakhabe.
+
+3)command - git checkout branch name korele
+result = branch a chole jabo.
+
+repository:
+
+4)command - git remote 
+result = ki ki remote acha seta dakhabe.
+
+5)command - git remote -v 
+result = repository ar location dakhabe.
+
+6) command - git push -u origin master
+result - file push hoya jabe.
+
+deleting branch:
+1) command - git branch -d branch name
+result = delete the name of branch
+
+
+
+
+
+
+
+
+
+
+
+
